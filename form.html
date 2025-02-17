@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="sun.css">
+</head>
+<body>
+    
+    <div>
+        <u><h1>Registration Form</h1></u>
+        <form action="ss.html" onclick="return form()"> 
+        <label>User Name</label><br>
+        <input id="username" type="text"  name="username" placeholder="Enter your name"> 
+        <span id="nameerror" class="error-msg"></span><br>
+        
+    
+        <label>Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <span id="passworderror" class="error-msg"></span><br>
+        
+
+        <label>Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <span id="emailerror" class="error-msg"></span><br>
+        
+        <label>Address</label><br>
+        <input id="address" type="text" name="address" placeholder="Enter your address">
+        <span id="addresserror" class="error-msg"></span><br>
+
+        <label>Contact Number</label><br>
+        <input type="number" id="contact" name="contact" placeholder="Enter your contact number">
+        <span id="contacterror" class="error-msg"></span><br>
+
+        <button>REGISTER</button>
+    </form>
+    </div>
+
+    <script src="validation.js"></script>
+</body>
+</html>

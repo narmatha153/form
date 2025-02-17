@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(138, 202, 228);
+}
+input{
+    width: 450px;
+    height: 40px;
+}
+label{
+    font-size: 22px;
+    color: rgb(48, 231, 161);
+ 
+}
+div{
+    width: 550px;
+    height: 500px;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(219, 73, 92);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(130, 36, 184, 0.932);
+}
+.error-msg
+{
+    color: rgb(104, 11, 11);
+}
+h1{
+    color: rgb(29, 110, 177);
+}
+button{
+    background-color: rgb(151, 13, 91);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    position: relative;
+    width: 180px;
+    height: 40px;
+    top: 15px;
+}
